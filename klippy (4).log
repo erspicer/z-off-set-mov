@@ -1,0 +1,220 @@
+[ERROR] 2024-02-28 12:41:06,348 [root] [klippy:_connect:167] {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 12:41:06,350 [root] [klippy:_connect:197] Config error
+Traceback (most recent call last):
+  File "/usr/share/klipper/klippy/klippy.py", line 159, in _connect
+    self._read_config()
+  File "/usr/share/klipper/klippy/klippy.py", line 140, in _read_config
+    self.load_object(config, section_config.get_name(), None)
+  File "/usr/share/klipper/klippy/klippy.py", line 129, in load_object
+    self.objects[section] = init_func(config.getsection(section))
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 274, in load_config
+    blt = BLTouchEndstopWrapper(config)
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 33, in __init__
+    self.position_endstop = config.getfloat('z_offset', minval=0.)
+  File "/usr/share/klipper/klippy/configfile.py", line 81, in getfloat
+    note_valid=note_valid)
+  File "/usr/share/klipper/klippy/configfile.py", line 49, in _get_wrapper
+    minval, minval
+configparser.Error: {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 12:41:26,250 [root] [klippy:_connect:167] {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 12:41:26,251 [root] [klippy:_connect:197] Config error
+Traceback (most recent call last):
+  File "/usr/share/klipper/klippy/klippy.py", line 159, in _connect
+    self._read_config()
+  File "/usr/share/klipper/klippy/klippy.py", line 140, in _read_config
+    self.load_object(config, section_config.get_name(), None)
+  File "/usr/share/klipper/klippy/klippy.py", line 129, in load_object
+    self.objects[section] = init_func(config.getsection(section))
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 274, in load_config
+    blt = BLTouchEndstopWrapper(config)
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 33, in __init__
+    self.position_endstop = config.getfloat('z_offset', minval=0.)
+  File "/usr/share/klipper/klippy/configfile.py", line 81, in getfloat
+    note_valid=note_valid)
+  File "/usr/share/klipper/klippy/configfile.py", line 49, in _get_wrapper
+    minval, minval
+configparser.Error: {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 12:41:29,452 [root] [klippy:_connect:167] {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 12:41:29,453 [root] [klippy:_connect:197] Config error
+Traceback (most recent call last):
+  File "/usr/share/klipper/klippy/klippy.py", line 159, in _connect
+    self._read_config()
+  File "/usr/share/klipper/klippy/klippy.py", line 140, in _read_config
+    self.load_object(config, section_config.get_name(), None)
+  File "/usr/share/klipper/klippy/klippy.py", line 129, in load_object
+    self.objects[section] = init_func(config.getsection(section))
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 274, in load_config
+    blt = BLTouchEndstopWrapper(config)
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 33, in __init__
+    self.position_endstop = config.getfloat('z_offset', minval=0.)
+  File "/usr/share/klipper/klippy/configfile.py", line 81, in getfloat
+    note_valid=note_valid)
+  File "/usr/share/klipper/klippy/configfile.py", line 49, in _get_wrapper
+    minval, minval
+configparser.Error: {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 13:40:23,636 [root] [klippy:_connect:167] {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 13:40:23,638 [root] [klippy:_connect:197] Config error
+Traceback (most recent call last):
+  File "/usr/share/klipper/klippy/klippy.py", line 159, in _connect
+    self._read_config()
+  File "/usr/share/klipper/klippy/klippy.py", line 140, in _read_config
+    self.load_object(config, section_config.get_name(), None)
+  File "/usr/share/klipper/klippy/klippy.py", line 129, in load_object
+    self.objects[section] = init_func(config.getsection(section))
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 274, in load_config
+    blt = BLTouchEndstopWrapper(config)
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 33, in __init__
+    self.position_endstop = config.getfloat('z_offset', minval=0.)
+  File "/usr/share/klipper/klippy/configfile.py", line 81, in getfloat
+    note_valid=note_valid)
+  File "/usr/share/klipper/klippy/configfile.py", line 49, in _get_wrapper
+    minval, minval
+configparser.Error: {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 13:40:28,560 [root] [klippy:_connect:167] {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 13:40:28,562 [root] [klippy:_connect:197] Config error
+Traceback (most recent call last):
+  File "/usr/share/klipper/klippy/klippy.py", line 159, in _connect
+    self._read_config()
+  File "/usr/share/klipper/klippy/klippy.py", line 140, in _read_config
+    self.load_object(config, section_config.get_name(), None)
+  File "/usr/share/klipper/klippy/klippy.py", line 129, in load_object
+    self.objects[section] = init_func(config.getsection(section))
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 274, in load_config
+    blt = BLTouchEndstopWrapper(config)
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 33, in __init__
+    self.position_endstop = config.getfloat('z_offset', minval=0.)
+  File "/usr/share/klipper/klippy/configfile.py", line 81, in getfloat
+    note_valid=note_valid)
+  File "/usr/share/klipper/klippy/configfile.py", line 49, in _get_wrapper
+    minval, minval
+configparser.Error: {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 13:40:40,386 [root] [klippy:_connect:167] {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 13:40:40,387 [root] [klippy:_connect:197] Config error
+Traceback (most recent call last):
+  File "/usr/share/klipper/klippy/klippy.py", line 159, in _connect
+    self._read_config()
+  File "/usr/share/klipper/klippy/klippy.py", line 140, in _read_config
+    self.load_object(config, section_config.get_name(), None)
+  File "/usr/share/klipper/klippy/klippy.py", line 129, in load_object
+    self.objects[section] = init_func(config.getsection(section))
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 274, in load_config
+    blt = BLTouchEndstopWrapper(config)
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 33, in __init__
+    self.position_endstop = config.getfloat('z_offset', minval=0.)
+  File "/usr/share/klipper/klippy/configfile.py", line 81, in getfloat
+    note_valid=note_valid)
+  File "/usr/share/klipper/klippy/configfile.py", line 49, in _get_wrapper
+    minval, minval
+configparser.Error: {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 13:40:43,671 [root] [klippy:_connect:167] {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 13:40:43,672 [root] [klippy:_connect:197] Config error
+Traceback (most recent call last):
+  File "/usr/share/klipper/klippy/klippy.py", line 159, in _connect
+    self._read_config()
+  File "/usr/share/klipper/klippy/klippy.py", line 140, in _read_config
+    self.load_object(config, section_config.get_name(), None)
+  File "/usr/share/klipper/klippy/klippy.py", line 129, in load_object
+    self.objects[section] = init_func(config.getsection(section))
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 274, in load_config
+    blt = BLTouchEndstopWrapper(config)
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 33, in __init__
+    self.position_endstop = config.getfloat('z_offset', minval=0.)
+  File "/usr/share/klipper/klippy/configfile.py", line 81, in getfloat
+    note_valid=note_valid)
+  File "/usr/share/klipper/klippy/configfile.py", line 49, in _get_wrapper
+    minval, minval
+configparser.Error: {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 13:40:46,703 [root] [klippy:_connect:167] {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 13:40:46,705 [root] [klippy:_connect:197] Config error
+Traceback (most recent call last):
+  File "/usr/share/klipper/klippy/klippy.py", line 159, in _connect
+    self._read_config()
+  File "/usr/share/klipper/klippy/klippy.py", line 140, in _read_config
+    self.load_object(config, section_config.get_name(), None)
+  File "/usr/share/klipper/klippy/klippy.py", line 129, in load_object
+    self.objects[section] = init_func(config.getsection(section))
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 274, in load_config
+    blt = BLTouchEndstopWrapper(config)
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 33, in __init__
+    self.position_endstop = config.getfloat('z_offset', minval=0.)
+  File "/usr/share/klipper/klippy/configfile.py", line 81, in getfloat
+    note_valid=note_valid)
+  File "/usr/share/klipper/klippy/configfile.py", line 49, in _get_wrapper
+    minval, minval
+configparser.Error: {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 13:40:53,848 [root] [klippy:_connect:167] {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 13:40:53,849 [root] [klippy:_connect:197] Config error
+Traceback (most recent call last):
+  File "/usr/share/klipper/klippy/klippy.py", line 159, in _connect
+    self._read_config()
+  File "/usr/share/klipper/klippy/klippy.py", line 140, in _read_config
+    self.load_object(config, section_config.get_name(), None)
+  File "/usr/share/klipper/klippy/klippy.py", line 129, in load_object
+    self.objects[section] = init_func(config.getsection(section))
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 274, in load_config
+    blt = BLTouchEndstopWrapper(config)
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 33, in __init__
+    self.position_endstop = config.getfloat('z_offset', minval=0.)
+  File "/usr/share/klipper/klippy/configfile.py", line 81, in getfloat
+    note_valid=note_valid)
+  File "/usr/share/klipper/klippy/configfile.py", line 49, in _get_wrapper
+    minval, minval
+configparser.Error: {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-02-28 13:48:19,363 [root] [klippy:_connect:208] MCU error during connect
+Traceback (most recent call last):
+  File "/usr/share/klipper/klippy/klippy.py", line 164, in _connect
+    cb()
+  File "/usr/share/klipper/klippy/mcu.py", line 812, in _connect
+    % (self._name, self._name))
+mcu.error: {"code": "key301", "msg": "Failed automated reset of MCU 'mcu'", "values":["mcu"]}
+                                                                                                                                                                                                                                                                                                                                                                   [ERROR] 2024-02-28 14:04:45,047 [root] [__init__:logging_callback:267] b'Got EOF when reading from device'
+[ERROR] 2024-02-28 14:04:49,344 [root] [klippy:invoke_shutdown:351] Transition to shutdown state: Lost communication with MCU 'mcu'
+[ERROR] 2024-02-28 14:14:08,193 [root] [klippy:_connect:208] MCU error during connect
+Traceback (most recent call last):
+  File "/usr/share/klipper/klippy/mcu.py", line 852, in _mcu_identify
+    self._serial.connect_uart(self._serialport, self._baud, rts)
+  File "/usr/share/klipper/klippy/serialhdl.py", line 182, in connect_uart
+    self._error("Unable to connect")
+  File "/usr/share/klipper/klippy/serialhdl.py", line 61, in _error
+    raise error(self.warn_prefix + (msg % params))
+serialhdl.error: mcu 'mcu': Unable to connect
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/share/klipper/klippy/klippy.py", line 160, in _connect
+    self.send_event("klippy:mcu_identify")
+  File "/usr/share/klipper/klippy/klippy.py", line 371, in send_event
+    return [cb(*params) for cb in self.event_handlers.get(event, [])]
+  File "/usr/share/klipper/klippy/klippy.py", line 371, in <listcomp>
+    return [cb(*params) for cb in self.event_handlers.get(event, [])]
+  File "/usr/share/klipper/klippy/mcu.py", line 857, in _mcu_identify
+    raise error(str(e))
+mcu.error: mcu 'mcu': Unable to connect
+[ERROR] 2024-02-28 18:13:39,778 [root] [__init__:logging_callback:267] b'Got EOF when reading from device'
+[ERROR] 2024-02-28 18:13:44,351 [root] [klippy:invoke_shutdown:351] Transition to shutdown state: Lost communication with MCU 'mcu'
+[ERROR] 2024-03-01 13:38:27,470 [root] [klippy:_connect:167] {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-03-01 13:38:27,471 [root] [klippy:_connect:197] Config error
+Traceback (most recent call last):
+  File "/usr/share/klipper/klippy/klippy.py", line 159, in _connect
+    self._read_config()
+  File "/usr/share/klipper/klippy/klippy.py", line 140, in _read_config
+    self.load_object(config, section_config.get_name(), None)
+  File "/usr/share/klipper/klippy/klippy.py", line 129, in load_object
+    self.objects[section] = init_func(config.getsection(section))
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 274, in load_config
+    blt = BLTouchEndstopWrapper(config)
+  File "/usr/share/klipper/klippy/extras/bltouch.py", line 33, in __init__
+    self.position_endstop = config.getfloat('z_offset', minval=0.)
+  File "/usr/share/klipper/klippy/configfile.py", line 81, in getfloat
+    note_valid=note_valid)
+  File "/usr/share/klipper/klippy/configfile.py", line 49, in _get_wrapper
+    minval, minval
+configparser.Error: {"code":"key281", "msg":"Error on 'z_offset': 'touch' must have minimum of 0.0", "values":["0.0"]}
+[ERROR] 2024-03-01 13:41:51,957 [root] [klippy:_connect:208] MCU error during connect
+Traceback (most recent call last):
+  File "/usr/share/klipper/klippy/klippy.py", line 164, in _connect
+    cb()
+  File "/usr/share/klipper/klippy/mcu.py", line 812, in _connect
+    % (self._name, self._name))
+mcu.error: {"code": "key301", "msg": "Failed automated reset of MCU 'mcu'", "values":["mcu"]}
